@@ -49,10 +49,10 @@ AUC的计算，需要引入confusion matrix（混淆矩阵）。
 
 > 混淆矩阵在计算分类recall、accuracy的时候常常用到。
 一个典型的两类混淆矩阵如下：
- |  正样本个数P   |  负样本个数N  | predict 
+ |  正样本个数P   |  负样本个数N  | predict |
 | :-----:           | :----:        | :------:   |
-| true positive |   false positive     |Ｙ
-| false negative |  true negative |Ｎ
+| true positive |   false positive     |Ｙ|
+| false negative |  true negative |Ｎ|
 
 > * true positive : 预估为正样本positive，并且预测正确true
 > * false positive: 预估为正样本(positive)：但是预测错了(false)，即**误报**
