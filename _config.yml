@@ -1,12 +1,20 @@
 markdown: redcarpet
-highlighter: null
+highlighter: pygments
 permalink: /:title
 
 url:
 baseurl:
 
 redcarpet:
-  extensions: [strikethrough, tables]
+  extensions: ["fenced_code_blocks",
+                "hard_wrap",
+                "autolink",
+                "tables",
+                "strikethrough",
+                "with_toc_data",
+                "highlight",
+                "prettify",
+                "no_intra_emphasis"]
 
 sass:
   sass_dir: public/css
